@@ -1,5 +1,7 @@
 # re-frame-websocket-fx
 
+[![Clojars Project](https://img.shields.io/clojars/v/fun.mike/re-frame-websocket-fx.svg)](https://clojars.org/fun.mike/re-frame-websocket-fx)
+
 A re-frame websocket effect handler.
 
 ## Copyright and License
