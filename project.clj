@@ -1,4 +1,4 @@
-(defproject fun.mike/re-frame-websocket-fx "0.0.2"
+(defproject fun.mike/re-frame-websocket-fx "0.0.3-SNAPSHOT"
   :description "A websocket effect handler for re-frame."
   :url "http://github.com/mike706574/re-frame-websocket-fx"
   :license {:name "Eclipse Public License"
