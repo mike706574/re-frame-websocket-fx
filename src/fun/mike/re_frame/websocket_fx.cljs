@@ -1,4 +1,4 @@
-(ns re-frame.websocket-fx
+(ns fun.mike.re-frame.websocket-fx
   (:require [re-frame.core :as rf]))
 
 (defn websocket-effect
