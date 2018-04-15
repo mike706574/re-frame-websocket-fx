@@ -4,6 +4,10 @@
 
 A re-frame websocket effect handler.
 
+## Build
+
+[![CircleCI](https://circleci.com/gh/mike706574/re-frame-websocket-fx.svg?style=svg)](https://circleci.com/gh/mike706574/re-frame-websocket-fx)
+
 ## Copyright and License
 
 The use and distribution terms for this software are covered by the
