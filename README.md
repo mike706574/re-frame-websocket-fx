@@ -13,7 +13,7 @@ A re-frame websocket effect handler.
  :connect-websocket
  (fn [{_ _]
    {:websocket {:method :get
-                :uri ws-url
+                :uri "ws://localhost:8080/foo"
                 :on-message [:message-received]
                 :on-success [:websocket-success]
                 :on-failure [:websocket-failure]}}))
