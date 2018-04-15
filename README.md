@@ -4,6 +4,21 @@
 
 A re-frame websocket effect handler.
 
+## Example
+
+```clojure
+(require [fun.mike.re-frame.websocket-fx])
+
+(reg-event-fx
+ :connect-websocket
+ (fn [{_ _]
+   {:websocket {:method :get
+                :uri ws-url
+                :on-message [:message-received]
+                :on-success [:websocket-success]
+                :on-failure [:websocket-failure]}}))
+```
+
 ## Build
 
 [![CircleCI](https://circleci.com/gh/mike706574/re-frame-websocket-fx.svg?style=svg)](https://circleci.com/gh/mike706574/re-frame-websocket-fx)
